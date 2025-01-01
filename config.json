@@ -1,0 +1,17 @@
+{
+    "network": {
+        "port": 9999,
+        "host": "0.0.0.0",
+        "buffer_size": 1024,
+        "timeout": 1.0
+    },
+    "file": {
+        "max_size": 4294967296,
+        "allowed_extensions": ["*"],
+        "save_path": "./received_files"
+    },
+    "transfer": {
+        "compress_level": 6,
+        "show_progress": true
+    }
+} 
