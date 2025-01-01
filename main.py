@@ -66,7 +66,7 @@ class FileTransferApp:
                     print("- 可以直接拖拽文件/文件夹到窗口中")
                     print("- 支持绝对路径 (如 C:/folder/file.txt)")
                     print("- 支持相对路径 (如 ./folder/file.txt)")
-                    print("- Windows系统可以右键文件/文件夹，选择"复制为路径"")
+                    print('- Windows系统可以右键文件/文件夹，选择"复制为路径"')
                     filepath = input("请输入要发送的文件路径: ")
                     
                     # 处理文件路径
